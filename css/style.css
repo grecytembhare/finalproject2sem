@@ -132,11 +132,22 @@ h2{
 #js-bar{
   animation: js-fill 2s forwards;
 }
+
 @keyframes js-fill {
   100%{
       width: 72%;
   }
 }
+#python-bar{
+  animation: js-fill 2s forwards;
+}
+
+@keyframes js-fill {
+  100%{
+      width: 72%;
+  }
+}
+
 #jQuery-bar{
   animation: jQuery-fill 2s forwards;
 }
