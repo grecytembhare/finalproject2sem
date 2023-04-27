@@ -413,6 +413,13 @@ header {
   display: block;
 }
 
+.Modern-Slider .item-main .image {
+  background-image: url(../img/grecytamboriheader.png);
+  background-size: auto;
+  /* background: radial-gradient(circle, rgba(69,72,154,1) 25%, rgba(31,64,116,1) 100%); */
+  
+}
+
 .Modern-Slider .item-1 .image {
   background-image: url(../img/HTML1.webp);
   /* background: radial-gradient(circle, rgba(69,72,154,1) 25%, rgba(31,64,116,1) 100%); */
@@ -429,7 +436,7 @@ header {
 .Modern-Slider .PrevArrow:before{content:'\f104';}
 
 .Modern-Slider .item .image {
-  animation: zoomin 12s ease-in-out infinite alternate;
+  animation: zoomin 10s ease-in-out infinite alternate;
   -webkit-animation: zoomin 12s ease-in-out infinite alternate;
 }
 
@@ -592,12 +599,17 @@ header {
   margin-bottom: 12.5px;
 }
 
-
+/* Skils */
+#Skils{
+  width: 90%;
+}
+/* Skils */
 
 /* Projects Style */
 
 #projects {
-  padding-left: 60px;
+  /* padding-left: 60px; */
+  padding-left: 290px;
   padding-right: 60px;
   padding-bottom: 50px;
 }
@@ -744,7 +756,7 @@ header {
   display: inline-block;
   text-align: center;
   width: 25%;
-  float: left;
+  /* float: left; */
   margin: 0;
   padding: 0;
 }
@@ -840,9 +852,13 @@ header {
   margin-top: 25px;
 }
 
-
-
-
+/* map */
+#map{
+  position: relative;
+  left: 25%;
+  width:65%;
+}
+/* map */
 /* Contact Style */
 
 #contact {
@@ -851,6 +867,7 @@ header {
 
 #contact-content {
   padding: 80px 60px;
+  margin-left: 20%;
 }
 
 #contact input {
