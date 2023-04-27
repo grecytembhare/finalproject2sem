@@ -165,6 +165,9 @@ h2{
 /*******************************/
 /******* Experience CSS ********/
 /*******************************/
+/* #education-title .{
+  width: 70%;
+} */
 #education-title h1{
   margin-left: 50px;
 }
@@ -175,7 +178,7 @@ h2{
 
 .experience .timeline {
     position: relative;
-    width: 100%;
+    width: 80%;
 }
 
 .experience .timeline::after {
